@@ -75,7 +75,7 @@ windows-sys = { version = "0.61", features = [
 percent-encoding = "2"
 libc = "0.2"
 # XDG Desktop Portal
-pollster = { version = "0.4", optional = true }
+pollster = { version = "1", optional = true }
 wayland-backend = { version = "0.3", features = [
     "client_system",
 ], optional = true }
